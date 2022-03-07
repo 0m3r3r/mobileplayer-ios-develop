@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"mobileplayer-ios-develop::mobileplayer-ios-developPackageTests::ProductTarget" /* mobileplayer-ios-developPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_32 /* Build configuration list for PBXAggregateTarget "mobileplayer-ios-developPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_35 /* PBXTargetDependency */,
+			);
+			name = "mobileplayer-ios-developPackageTests";
+			productName = "mobileplayer-ios-developPackageTests";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		67F49D4227D5F9B8003D1AD4 /* MobilePlayerNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D0A27D5F9B8003D1AD4 /* MobilePlayerNotification.swift */; };
+		67F49D4327D5F9B8003D1AD4 /* YoutubeParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D0C27D5F9B8003D1AD4 /* YoutubeParser.swift */; };
+		67F49D4427D5F9B8003D1AD4 /* MobilePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D0E27D5F9B8003D1AD4 /* MobilePlayerViewController.swift */; };
+		67F49D4527D5F9B8003D1AD4 /* SliderConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D1127D5F9B8003D1AD4 /* SliderConfig.swift */; };
+		67F49D4627D5F9B8003D1AD4 /* ElementConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D1227D5F9B8003D1AD4 /* ElementConfig.swift */; };
+		67F49D4727D5F9B8003D1AD4 /* LabelConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D1327D5F9B8003D1AD4 /* LabelConfig.swift */; };
+		67F49D4827D5F9B8003D1AD4 /* MobilePlayerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D1427D5F9B8003D1AD4 /* MobilePlayerConfig.swift */; };
+		67F49D4927D5F9B8003D1AD4 /* WatermarkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D1527D5F9B8003D1AD4 /* WatermarkConfig.swift */; };
+		67F49D4A27D5F9B8003D1AD4 /* BarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D1627D5F9B8003D1AD4 /* BarConfig.swift */; };
+		67F49D4B27D5F9B8003D1AD4 /* ToggleButtonConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D1727D5F9B8003D1AD4 /* ToggleButtonConfig.swift */; };
+		67F49D4C27D5F9B8003D1AD4 /* ButtonConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D1827D5F9B8003D1AD4 /* ButtonConfig.swift */; };
+		67F49D4D27D5F9B8003D1AD4 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D3027D5F9B8003D1AD4 /* UIColor+Hex.swift */; };
+		67F49D4E27D5F9B8003D1AD4 /* UIImage+CocoaPods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D3127D5F9B8003D1AD4 /* UIImage+CocoaPods.swift */; };
+		67F49D4F27D5F9B8003D1AD4 /* ClosureSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D3227D5F9B8003D1AD4 /* ClosureSupport.swift */; };
+		67F49D5027D5F9B8003D1AD4 /* MobilePlayerOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D3327D5F9B8003D1AD4 /* MobilePlayerOverlayViewController.swift */; };
+		67F49D5127D5F9B8003D1AD4 /* WatermarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D3627D5F9B8003D1AD4 /* WatermarkViewController.swift */; };
+		67F49D5227D5F9B8003D1AD4 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D3827D5F9B8003D1AD4 /* Label.swift */; };
+		67F49D5327D5F9B8003D1AD4 /* MobilePlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D3927D5F9B8003D1AD4 /* MobilePlayerControlsView.swift */; };
+		67F49D5427D5F9B8003D1AD4 /* VolumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D3A27D5F9B8003D1AD4 /* VolumeView.swift */; };
+		67F49D5527D5F9B8003D1AD4 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D3B27D5F9B8003D1AD4 /* Bar.swift */; };
+		67F49D5627D5F9B8003D1AD4 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D3C27D5F9B8003D1AD4 /* Element.swift */; };
+		67F49D5727D5F9B8003D1AD4 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D3D27D5F9B8003D1AD4 /* Slider.swift */; };
+		67F49D5827D5F9B8003D1AD4 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D3E27D5F9B8003D1AD4 /* ToggleButton.swift */; };
+		67F49D5927D5F9B8003D1AD4 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D3F27D5F9B8003D1AD4 /* Button.swift */; };
+		67F49D5A27D5F9B8003D1AD4 /* StateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49D4127D5F9B8003D1AD4 /* StateHelper.swift */; };
+		OBJ_23 /* mobileplayer_ios_develop.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* mobileplayer_ios_develop.swift */; };
+		OBJ_30 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_41 /* mobileplayer_ios_developTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* mobileplayer_ios_developTests.swift */; };
+		OBJ_43 /* mobileplayer_ios_develop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "mobileplayer-ios-develop::mobileplayer-ios-develop::Product" /* mobileplayer_ios_develop.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67F49D0727D5F99A003D1AD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "mobileplayer-ios-develop::mobileplayer-ios-develop";
+			remoteInfo = "mobileplayer-ios-develop";
+		};
+		67F49D0827D5F99A003D1AD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "mobileplayer-ios-develop::mobileplayer-ios-developTests";
+			remoteInfo = "mobileplayer-ios-developTests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67F49D0A27D5F9B8003D1AD4 /* MobilePlayerNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilePlayerNotification.swift; sourceTree = "<group>"; };
+		67F49D0C27D5F9B8003D1AD4 /* YoutubeParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeParser.swift; sourceTree = "<group>"; };
+		67F49D0D27D5F9B8003D1AD4 /* MobilePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobilePlayer.h; sourceTree = "<group>"; };
+		67F49D0E27D5F9B8003D1AD4 /* MobilePlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilePlayerViewController.swift; sourceTree = "<group>"; };
+		67F49D0F27D5F9B8003D1AD4 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		67F49D1127D5F9B8003D1AD4 /* SliderConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderConfig.swift; sourceTree = "<group>"; };
+		67F49D1227D5F9B8003D1AD4 /* ElementConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementConfig.swift; sourceTree = "<group>"; };
+		67F49D1327D5F9B8003D1AD4 /* LabelConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelConfig.swift; sourceTree = "<group>"; };
+		67F49D1427D5F9B8003D1AD4 /* MobilePlayerConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilePlayerConfig.swift; sourceTree = "<group>"; };
+		67F49D1527D5F9B8003D1AD4 /* WatermarkConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatermarkConfig.swift; sourceTree = "<group>"; };
+		67F49D1627D5F9B8003D1AD4 /* BarConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarConfig.swift; sourceTree = "<group>"; };
+		67F49D1727D5F9B8003D1AD4 /* ToggleButtonConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleButtonConfig.swift; sourceTree = "<group>"; };
+		67F49D1827D5F9B8003D1AD4 /* ButtonConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonConfig.swift; sourceTree = "<group>"; };
+		67F49D1A27D5F9B8003D1AD4 /* MLShareButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MLShareButton.png; sourceTree = "<group>"; };
+		67F49D1B27D5F9B8003D1AD4 /* MLVolumeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MLVolumeButton.png; sourceTree = "<group>"; };
+		67F49D1C27D5F9B8003D1AD4 /* MLPauseButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MLPauseButton@2x.png"; sourceTree = "<group>"; };
+		67F49D1D27D5F9B8003D1AD4 /* MLCloseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MLCloseButton.png; sourceTree = "<group>"; };
+		67F49D1E27D5F9B8003D1AD4 /* MLIncreaseVolume@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MLIncreaseVolume@2x.png"; sourceTree = "<group>"; };
+		67F49D1F27D5F9B8003D1AD4 /* MLVolumeButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MLVolumeButton@2x.png"; sourceTree = "<group>"; };
+		67F49D2027D5F9B8003D1AD4 /* MLVolumeButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MLVolumeButton@3x.png"; sourceTree = "<group>"; };
+		67F49D2127D5F9B8003D1AD4 /* MLIncreaseVolume@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MLIncreaseVolume@3x.png"; sourceTree = "<group>"; };
+		67F49D2227D5F9B8003D1AD4 /* MLPauseButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MLPauseButton@3x.png"; sourceTree = "<group>"; };
+		67F49D2327D5F9B8003D1AD4 /* MLReduceVolume@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MLReduceVolume@2x.png"; sourceTree = "<group>"; };
+		67F49D2427D5F9B8003D1AD4 /* MLCloseButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MLCloseButton@3x.png"; sourceTree = "<group>"; };
+		67F49D2527D5F9B8003D1AD4 /* MLCloseButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MLCloseButton@2x.png"; sourceTree = "<group>"; };
+		67F49D2627D5F9B8003D1AD4 /* MLReduceVolume@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MLReduceVolume@3x.png"; sourceTree = "<group>"; };
+		67F49D2727D5F9B8003D1AD4 /* MLIncreaseVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MLIncreaseVolume.png; sourceTree = "<group>"; };
+		67F49D2827D5F9B8003D1AD4 /* MLReduceVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MLReduceVolume.png; sourceTree = "<group>"; };
+		67F49D2927D5F9B8003D1AD4 /* MLShareButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MLShareButton@2x.png"; sourceTree = "<group>"; };
+		67F49D2A27D5F9B8003D1AD4 /* MLPlayButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MLPlayButton@2x.png"; sourceTree = "<group>"; };
+		67F49D2B27D5F9B8003D1AD4 /* MLPauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MLPauseButton.png; sourceTree = "<group>"; };
+		67F49D2C27D5F9B8003D1AD4 /* MLPlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MLPlayButton.png; sourceTree = "<group>"; };
+		67F49D2D27D5F9B8003D1AD4 /* MLPlayButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MLPlayButton@3x.png"; sourceTree = "<group>"; };
+		67F49D2E27D5F9B8003D1AD4 /* MLShareButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MLShareButton@3x.png"; sourceTree = "<group>"; };
+		67F49D3027D5F9B8003D1AD4 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		67F49D3127D5F9B8003D1AD4 /* UIImage+CocoaPods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CocoaPods.swift"; sourceTree = "<group>"; };
+		67F49D3227D5F9B8003D1AD4 /* ClosureSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosureSupport.swift; sourceTree = "<group>"; };
+		67F49D3327D5F9B8003D1AD4 /* MobilePlayerOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilePlayerOverlayViewController.swift; sourceTree = "<group>"; };
+		67F49D3527D5F9B8003D1AD4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67F49D3627D5F9B8003D1AD4 /* WatermarkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatermarkViewController.swift; sourceTree = "<group>"; };
+		67F49D3827D5F9B8003D1AD4 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		67F49D3927D5F9B8003D1AD4 /* MobilePlayerControlsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilePlayerControlsView.swift; sourceTree = "<group>"; };
+		67F49D3A27D5F9B8003D1AD4 /* VolumeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeView.swift; sourceTree = "<group>"; };
+		67F49D3B27D5F9B8003D1AD4 /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		67F49D3C27D5F9B8003D1AD4 /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		67F49D3D27D5F9B8003D1AD4 /* Slider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		67F49D3E27D5F9B8003D1AD4 /* ToggleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		67F49D3F27D5F9B8003D1AD4 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		67F49D4127D5F9B8003D1AD4 /* StateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateHelper.swift; sourceTree = "<group>"; };
+		OBJ_12 /* mobileplayer_ios_developTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileplayer_ios_developTests.swift; sourceTree = "<group>"; };
+		OBJ_16 /* Documentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documentation; sourceTree = SOURCE_ROOT; };
+		OBJ_17 /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scripts; sourceTree = SOURCE_ROOT; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* mobileplayer_ios_develop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileplayer_ios_develop.swift; sourceTree = "<group>"; };
+		"mobileplayer-ios-develop::mobileplayer-ios-develop::Product" /* mobileplayer_ios_develop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mobileplayer_ios_develop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"mobileplayer-ios-develop::mobileplayer-ios-developTests::Product" /* mobileplayer_ios_developTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; name = mobileplayer_ios_developTests.xctest; path = "mobileplayer-ios-developTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_43 /* mobileplayer_ios_develop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67F49D0927D5F9B8003D1AD4 /* MobilePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				67F49D0A27D5F9B8003D1AD4 /* MobilePlayerNotification.swift */,
+				67F49D0B27D5F9B8003D1AD4 /* Parsers */,
+				67F49D0D27D5F9B8003D1AD4 /* MobilePlayer.h */,
+				67F49D0E27D5F9B8003D1AD4 /* MobilePlayerViewController.swift */,
+				67F49D0F27D5F9B8003D1AD4 /* .swiftlint.yml */,
+				67F49D1027D5F9B8003D1AD4 /* Config */,
+				67F49D1927D5F9B8003D1AD4 /* Resources */,
+				67F49D2F27D5F9B8003D1AD4 /* Extensions */,
+				67F49D3327D5F9B8003D1AD4 /* MobilePlayerOverlayViewController.swift */,
+				67F49D3427D5F9B8003D1AD4 /* Supporting Files */,
+				67F49D3627D5F9B8003D1AD4 /* WatermarkViewController.swift */,
+				67F49D3727D5F9B8003D1AD4 /* Views */,
+				67F49D4027D5F9B8003D1AD4 /* Helpers */,
+			);
+			name = MobilePlayer;
+			path = Sources/MobilePlayer;
+			sourceTree = "<group>";
+		};
+		67F49D0B27D5F9B8003D1AD4 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				67F49D0C27D5F9B8003D1AD4 /* YoutubeParser.swift */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		67F49D1027D5F9B8003D1AD4 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				67F49D1127D5F9B8003D1AD4 /* SliderConfig.swift */,
+				67F49D1227D5F9B8003D1AD4 /* ElementConfig.swift */,
+				67F49D1327D5F9B8003D1AD4 /* LabelConfig.swift */,
+				67F49D1427D5F9B8003D1AD4 /* MobilePlayerConfig.swift */,
+				67F49D1527D5F9B8003D1AD4 /* WatermarkConfig.swift */,
+				67F49D1627D5F9B8003D1AD4 /* BarConfig.swift */,
+				67F49D1727D5F9B8003D1AD4 /* ToggleButtonConfig.swift */,
+				67F49D1827D5F9B8003D1AD4 /* ButtonConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		67F49D1927D5F9B8003D1AD4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				67F49D1A27D5F9B8003D1AD4 /* MLShareButton.png */,
+				67F49D1B27D5F9B8003D1AD4 /* MLVolumeButton.png */,
+				67F49D1C27D5F9B8003D1AD4 /* MLPauseButton@2x.png */,
+				67F49D1D27D5F9B8003D1AD4 /* MLCloseButton.png */,
+				67F49D1E27D5F9B8003D1AD4 /* MLIncreaseVolume@2x.png */,
+				67F49D1F27D5F9B8003D1AD4 /* MLVolumeButton@2x.png */,
+				67F49D2027D5F9B8003D1AD4 /* MLVolumeButton@3x.png */,
+				67F49D2127D5F9B8003D1AD4 /* MLIncreaseVolume@3x.png */,
+				67F49D2227D5F9B8003D1AD4 /* MLPauseButton@3x.png */,
+				67F49D2327D5F9B8003D1AD4 /* MLReduceVolume@2x.png */,
+				67F49D2427D5F9B8003D1AD4 /* MLCloseButton@3x.png */,
+				67F49D2527D5F9B8003D1AD4 /* MLCloseButton@2x.png */,
+				67F49D2627D5F9B8003D1AD4 /* MLReduceVolume@3x.png */,
+				67F49D2727D5F9B8003D1AD4 /* MLIncreaseVolume.png */,
+				67F49D2827D5F9B8003D1AD4 /* MLReduceVolume.png */,
+				67F49D2927D5F9B8003D1AD4 /* MLShareButton@2x.png */,
+				67F49D2A27D5F9B8003D1AD4 /* MLPlayButton@2x.png */,
+				67F49D2B27D5F9B8003D1AD4 /* MLPauseButton.png */,
+				67F49D2C27D5F9B8003D1AD4 /* MLPlayButton.png */,
+				67F49D2D27D5F9B8003D1AD4 /* MLPlayButton@3x.png */,
+				67F49D2E27D5F9B8003D1AD4 /* MLShareButton@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		67F49D2F27D5F9B8003D1AD4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				67F49D3027D5F9B8003D1AD4 /* UIColor+Hex.swift */,
+				67F49D3127D5F9B8003D1AD4 /* UIImage+CocoaPods.swift */,
+				67F49D3227D5F9B8003D1AD4 /* ClosureSupport.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		67F49D3427D5F9B8003D1AD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67F49D3527D5F9B8003D1AD4 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67F49D3727D5F9B8003D1AD4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				67F49D3827D5F9B8003D1AD4 /* Label.swift */,
+				67F49D3927D5F9B8003D1AD4 /* MobilePlayerControlsView.swift */,
+				67F49D3A27D5F9B8003D1AD4 /* VolumeView.swift */,
+				67F49D3B27D5F9B8003D1AD4 /* Bar.swift */,
+				67F49D3C27D5F9B8003D1AD4 /* Element.swift */,
+				67F49D3D27D5F9B8003D1AD4 /* Slider.swift */,
+				67F49D3E27D5F9B8003D1AD4 /* ToggleButton.swift */,
+				67F49D3F27D5F9B8003D1AD4 /* Button.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		67F49D4027D5F9B8003D1AD4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				67F49D4127D5F9B8003D1AD4 /* StateHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		OBJ_10 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* mobileplayer-ios-developTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_11 /* mobileplayer-ios-developTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* mobileplayer_ios_developTests.swift */,
+			);
+			name = "mobileplayer-ios-developTests";
+			path = "Tests/mobileplayer-ios-developTests";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"mobileplayer-ios-develop::mobileplayer-ios-develop::Product" /* mobileplayer_ios_develop.framework */,
+				"mobileplayer-ios-develop::mobileplayer-ios-developTests::Product" /* mobileplayer_ios_developTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
+				OBJ_13 /* Products */,
+				OBJ_16 /* Documentation */,
+				OBJ_17 /* scripts */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				67F49D0927D5F9B8003D1AD4 /* MobilePlayer */,
+				OBJ_8 /* mobileplayer-ios-develop */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* mobileplayer-ios-develop */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* mobileplayer_ios_develop.swift */,
+			);
+			name = "mobileplayer-ios-develop";
+			path = "Sources/mobileplayer-ios-develop";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"mobileplayer-ios-develop::SwiftPMPackageDescription" /* mobileplayer-ios-developPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_26 /* Build configuration list for PBXNativeTarget "mobileplayer-ios-developPackageDescription" */;
+			buildPhases = (
+				OBJ_29 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mobileplayer-ios-developPackageDescription";
+			productName = "mobileplayer-ios-developPackageDescription";
+			productType = "com.apple.product-type.framework";
+		};
+		"mobileplayer-ios-develop::mobileplayer-ios-develop" /* mobileplayer-ios-develop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_19 /* Build configuration list for PBXNativeTarget "mobileplayer-ios-develop" */;
+			buildPhases = (
+				OBJ_22 /* Sources */,
+				OBJ_24 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mobileplayer-ios-develop";
+			productName = mobileplayer_ios_develop;
+			productReference = "mobileplayer-ios-develop::mobileplayer-ios-develop::Product" /* mobileplayer_ios_develop.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"mobileplayer-ios-develop::mobileplayer-ios-developTests" /* mobileplayer-ios-developTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_37 /* Build configuration list for PBXNativeTarget "mobileplayer-ios-developTests" */;
+			buildPhases = (
+				OBJ_40 /* Sources */,
+				OBJ_42 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_44 /* PBXTargetDependency */,
+			);
+			name = "mobileplayer-ios-developTests";
+			productName = mobileplayer_ios_developTests;
+			productReference = "mobileplayer-ios-develop::mobileplayer-ios-developTests::Product" /* mobileplayer_ios_developTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "mobileplayer-ios-develop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"mobileplayer-ios-develop::mobileplayer-ios-develop" /* mobileplayer-ios-develop */,
+				"mobileplayer-ios-develop::SwiftPMPackageDescription" /* mobileplayer-ios-developPackageDescription */,
+				"mobileplayer-ios-develop::mobileplayer-ios-developPackageTests::ProductTarget" /* mobileplayer-ios-developPackageTests */,
+				"mobileplayer-ios-develop::mobileplayer-ios-developTests" /* mobileplayer-ios-developTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				67F49D4927D5F9B8003D1AD4 /* WatermarkConfig.swift in Sources */,
+				67F49D5527D5F9B8003D1AD4 /* Bar.swift in Sources */,
+				67F49D4A27D5F9B8003D1AD4 /* BarConfig.swift in Sources */,
+				67F49D5427D5F9B8003D1AD4 /* VolumeView.swift in Sources */,
+				67F49D4727D5F9B8003D1AD4 /* LabelConfig.swift in Sources */,
+				67F49D5A27D5F9B8003D1AD4 /* StateHelper.swift in Sources */,
+				OBJ_23 /* mobileplayer_ios_develop.swift in Sources */,
+				67F49D5627D5F9B8003D1AD4 /* Element.swift in Sources */,
+				67F49D5127D5F9B8003D1AD4 /* WatermarkViewController.swift in Sources */,
+				67F49D4527D5F9B8003D1AD4 /* SliderConfig.swift in Sources */,
+				67F49D5727D5F9B8003D1AD4 /* Slider.swift in Sources */,
+				67F49D4227D5F9B8003D1AD4 /* MobilePlayerNotification.swift in Sources */,
+				67F49D4427D5F9B8003D1AD4 /* MobilePlayerViewController.swift in Sources */,
+				67F49D4B27D5F9B8003D1AD4 /* ToggleButtonConfig.swift in Sources */,
+				67F49D5027D5F9B8003D1AD4 /* MobilePlayerOverlayViewController.swift in Sources */,
+				67F49D4627D5F9B8003D1AD4 /* ElementConfig.swift in Sources */,
+				67F49D5927D5F9B8003D1AD4 /* Button.swift in Sources */,
+				67F49D4E27D5F9B8003D1AD4 /* UIImage+CocoaPods.swift in Sources */,
+				67F49D4D27D5F9B8003D1AD4 /* UIColor+Hex.swift in Sources */,
+				67F49D5327D5F9B8003D1AD4 /* MobilePlayerControlsView.swift in Sources */,
+				67F49D4F27D5F9B8003D1AD4 /* ClosureSupport.swift in Sources */,
+				67F49D5827D5F9B8003D1AD4 /* ToggleButton.swift in Sources */,
+				67F49D5227D5F9B8003D1AD4 /* Label.swift in Sources */,
+				67F49D4827D5F9B8003D1AD4 /* MobilePlayerConfig.swift in Sources */,
+				67F49D4327D5F9B8003D1AD4 /* YoutubeParser.swift in Sources */,
+				67F49D4C27D5F9B8003D1AD4 /* ButtonConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_30 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_41 /* mobileplayer_ios_developTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "mobileplayer-ios-develop::mobileplayer-ios-developTests" /* mobileplayer-ios-developTests */;
+			targetProxy = 67F49D0827D5F99A003D1AD4 /* PBXContainerItemProxy */;
+		};
+		OBJ_44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "mobileplayer-ios-develop::mobileplayer-ios-develop" /* mobileplayer-ios-develop */;
+			targetProxy = 67F49D0727D5F99A003D1AD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "mobileplayer-ios-develop.xcodeproj/mobileplayer_ios_develop_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "mobileplayer-ios-develop";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "mobileplayer-ios-develop";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "mobileplayer-ios-develop.xcodeproj/mobileplayer_ios_develop_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "mobileplayer-ios-develop";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "mobileplayer-ios-develop";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -package-description-version 5.5.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -package-description-version 5.5.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "mobileplayer-ios-develop.xcodeproj/mobileplayer_ios_developTests_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "mobileplayer-ios-developTests";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		OBJ_39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "mobileplayer-ios-develop.xcodeproj/mobileplayer_ios_developTests_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "mobileplayer-ios-developTests";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_19 /* Build configuration list for PBXNativeTarget "mobileplayer-ios-develop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_20 /* Debug */,
+				OBJ_21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "mobileplayer-ios-develop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_26 /* Build configuration list for PBXNativeTarget "mobileplayer-ios-developPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_27 /* Debug */,
+				OBJ_28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_32 /* Build configuration list for PBXAggregateTarget "mobileplayer-ios-developPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_33 /* Debug */,
+				OBJ_34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_37 /* Build configuration list for PBXNativeTarget "mobileplayer-ios-developTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_38 /* Debug */,
+				OBJ_39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
