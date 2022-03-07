@@ -5,12 +5,12 @@ import PackageDescription
 
 let package = Package(
     name: "MobilePlayer",
+    defaultLocalization: "en",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "MobilePlayer",
             targets: ["MobilePlayer"]),
-        
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -24,7 +24,7 @@ let package = Package(
             name: "MobilePlayer",
             dependencies: []),
         .testTarget(
-            name: "mobileplayer-ios-developTests",
-            dependencies: ["mobileplayer-ios-develop"]),
+            name: "MobilePlayerTests",
+            dependencies: ["MobilePlayer"]),
     ]
 )
