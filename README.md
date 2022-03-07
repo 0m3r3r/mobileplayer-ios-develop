@@ -11,6 +11,9 @@ MobilePlayer [![CocoaPods](https://img.shields.io/cocoapods/p/MobilePlayer.svg?s
 
 A powerful and completely customizable media player for iOS.
 
+Unoffical:
+Convert to Swift Package Manager (SPM) 
+
 Table of Contents
 ==================
 1. [Features](#features)
