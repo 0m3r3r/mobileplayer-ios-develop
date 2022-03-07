@@ -4,12 +4,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "mobileplayer-ios-develop",
+    name: "MobilePlayer",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "mobileplayer-ios-develop",
-            targets: ["mobileplayer-ios-develop"]),
+            name: "MobilePlayer",
+            targets: ["MobilePlayer"]),
         
     ],
     dependencies: [
@@ -22,8 +22,8 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
-            name: "mobileplayer-ios-develop",
-            dependencies: ["SnapKit"]),
+            name: "MobilePlayer",
+            dependencies: []),
         .testTarget(
             name: "mobileplayer-ios-developTests",
             dependencies: ["mobileplayer-ios-develop"]),
